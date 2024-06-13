@@ -45,5 +45,5 @@ if (typeof enviarScript !== 'function') {
    enviarScript(JLSC).then(e=>(console.log(`JLSC, ${e} mensagens apagadas`)))
 
 } else {
-    console.log('Function enviarScript already exists.');
+    console.log('Function enviarScript already exists.');
 }
